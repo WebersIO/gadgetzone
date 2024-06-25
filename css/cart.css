@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .headline {
+    background-color: #055c9d;
+    color: white;
+    text-align: center;
+  }
+  
+  .logo-text {
+    text-align: center;
+    padding: 20px 10px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    margin: auto;
+    font-size: 25px;
+  }
+  
+  .header {
+    border-bottom: 1px solid gainsboro;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ri-search-line {
+    border-right: 1px solid grey;
+  }
+  
+  i {
+    font-size: 20px;
+    padding: 10px;
+    /* margin: 5px; */
+  }
+  
+  nav {
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  ul li {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  ul li:hover {
+    border-top: 3px solid orange;
+  }
+  
+  li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .container {
+    border: 1px solid red;
+    width: 70%;
+    margin: auto;
+  }
+
+  .item-main {
+    border: 1px solid red;
+  }
+  .item {
+    border: 1px solid red;
+  }
+  .details {
+    border: 1px solid red;
+  }
