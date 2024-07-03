@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="/css/checkout.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="logo-text">Gadgets Zone</h1>
+      <i class="ri-search-line"></i>
+      <input class="ifcheck" type="checkbox" />
+      <div class="checking">
+        <input class="inp-search" type="text" placeholder="search" />
+      </div>
+      <a href="/cart.html"><i class="ri-shopping-cart-line"></i></a>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Tearms & Conditions</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <p>Home > View Cart > Checkout</p>
+    </div>
+
+    <div class="container2">
+      <h4><a href="#">Address</a></h4>
+      &nbsp; ------ &nbsp;
+      <h4><a href="#">Dispatch</a></h4>
+      &nbsp; ------ &nbsp;
+      <h4><a href="#">Review Order & Make Payment</a></h4>
+    </div>
+
+    <div class="container">
+      <div class="left">
+        <!-- <h4>Shipping Address</h4> -->
+        <form action="" title="Shipping Address" class="checkout_form">
+          <div class="name">
+            <div class="first_name">
+              <label for="name">First Name *</label>
+              <br />
+              <input type="text" />
+            </div>
+
+            <div class="first_name">
+              <label for="name">Second Name *</label>
+              <br />
+              <input type="text" />
+            </div>
+          </div>
+
+          <label for="">Email *</label>
+          <br />
+          <input type="email" required/>
+          <br />
+          <br />
+          <label for="">Address</label>
+          <br />
+          <input class="address-inp" type="text" name="" id="" required/>
+
+          <div class="name">
+            <div class="first_name" >
+              <label for="name">City *</label>
+              <br />
+              <input type="text" required/>
+            </div>
+
+            <div class="first_name">
+              <label for="name">Country *</label>
+              <br />
+              <input type="text" value="India" required/>
+            </div>
+          </div>
+
+          <div class="name">
+            <div class="first_name">
+              <label for="name">State / Province *</label>
+              <select name="" id="">
+                <option value="0">select state</option>
+                <option value="0">Gujarat</option>
+                <option value="0">Maharashtra</option>
+                <option value="0">Uttar Pradesh</option>
+                <option value="0">Madhya Pradesh</option>
+              </select>
+            </div>
+
+            <div class="first_name">
+              <label for="name">Zip Code *</label>
+              <br />
+              <input type="text" required/>
+            </div>
+          </div>
+
+          <label for="">Telephone</label>
+          <br />
+          <input type="tel" name="" id="" required/>
+
+          <div class="btn">
+            <input type="button" value="Continue" class="btn-relative">
+          </div>
+        </form>
+      </div>
+
+      <div class="right">
+        <div class="container4">
+          <div class="box">
+            <input
+              class="coupon"
+              type="text"
+              placeholder="Coupen Code"
+            /><button class="btn-apply">Apply</button>
+          </div>
+
+          <div class="box1">
+            <div class="box">
+              <h3>Order Summery</h3>
+              <div class="widthfull-container1">
+                <p>Subtotal</p>
+                <h3>$499.00</h3>
+              </div>
+
+              <div class="widthfull-container2">
+                <p>Total</p>
+                <h3>$499.00</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h4 class="h4-aboutus">Payment Option</h4>
+          <div class="payment-option">
+            <img src="/img/applepay.png" alt="" />
+            <img src="/img/amex.png" alt="" />
+            <img src="/img/gpay.png" alt="" />
+          </div>
+          <p>© gadgets zone <br />Powered by zoho commerce</p>
+        </div>
+        <div class="footer-second">
+          <h4 class="h4-aboutus">Follow Us</h4>
+          <div class="social-icon">
+            <a href="#"><i class="ri-facebook-fill social-i"></i></a>
+            <a href="#"><i class="ri-twitter-fill social-i"></i></a>
+            <a href="#"><i class="ri-pinterest-fill social-i"></i></a>
+          </div>
+        </div>
+        <div class="footer-third">
+          <h4 class="h4-aboutus">We Accept</h4>
+
+          <li>Visa Cards</li>
+          <li>Master Cards</li>
+          <li>Other Cards</li>
+        </div>
+        <div class="footer-four">
+          <h4 class="h4-aboutus">Newslatter</h4>
+          <input class="inp-newslatter" type="email" placeholder="Email" />
+          <button class="newslatter-btn">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,47 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-    <link rel="stylesheet" href="/css/cart.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-</head>
-<body>
+    <title>gadget zone</title>
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="icon" href="/img/favic.webp">
+    <!-- font awsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- remixicon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  </head>
+  <body>
     <div class="header">
-        <h1 class="logo-text">Gadgets Zone</h1>
-        <i class="ri-search-line"></i>
-        <input class="ifcheck" type="checkbox" />
-        <div class="checking">
-            <input class="inp-search" type="text" placeholder="search" />
-        </div>
-        <i class="ri-shopping-cart-line"></i>
+      <h1 class="logo-text">Gadgets Zone</h1>
+      <i class="ri-search-line"></i>
+      <input class="ifcheck" type="checkbox" />
+      <div class="checking">
+        <input class="inp-search" type="text" placeholder="search" />
+      </div>
+      <a href="/cart.html"><i class="ri-shopping-cart-line"></i></a>
     </div>
 
     <nav>
-        <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="term.html">Tearms & Conditions</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="term.html">Tearms & Conditions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
 
-    <div class="container">
+    <section>
+
+      <div class="container">
         <div class="item-main">
-            <div class="item">
-
+          <div class="item">
+            <p>items</p>
+          </div>
+          <div class="details">
+            <div class="quantity">
+              <p>quantity</p>
             </div>
-            <div class="details">
-
+            <div class="subtotal">
+              <p>subtotal</p>
             </div>
+            <div class="remove">
+              <p>remove</p>
+            </div>
+          </div>
         </div>
+      </div>
+      
+    </section>
+
+    <section>
+
+      <div class="container">
+        <div class="item-main">
+          <div class="item">
+            <img src="/img/item3.jpg" alt="" class="item-img" />
+            <div class="pro-title">
+              <p>Black Buds</p>
+              <br />
+              <h3>$210.00</h3>
+            </div>
+          </div>
+          <div class="details">
+            <div class="quantity">
+              <p>1</p>
+            </div>
+            <div class="subtotal">
+              <p>$210.00</p>
+            </div>
+            <div class="remove">
+              <p><i class="ri-delete-bin-6-line icon"></i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="item-main">
+          <div class="item">
+            <img src="/img/item6.jpg" alt="" class="item-img" />
+            <div class="pro-title">
+              <p>Funky Buds</p>
+              <br />
+              <h3>$210.00</h3>
+            </div>
+          </div>
+          <div class="details">
+            <div class="quantity">
+              <p>1</p>
+            </div>
+            <div class="subtotal">
+              <p>$210.00</p>
+            </div>
+            <div class="remove">
+              <p><i class="ri-delete-bin-6-line icon"></i></p>
+            </div>
+          </div>
+      </div>
     </div>
-</body>
-</html>
+  </section>
+    
+  <section>
+
+    <div class="container2">
+      <button class="btn-conti">
+        <a href="/index.html"></a>Continue Shoppings
+      </button>
+      <button class="btn-check"><a href="">Checkout</a></button>
+    </div>
+  </section>
+
+  <section>
+
+    
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h4 class="h4-aboutus">Payment Option</h4>
+          <div class="payment-option">
+            <img src="/img/applepay.png" alt="" />
+            <img src="/img/amex.png" alt="" />
+            <img src="/img/gpay.png" alt="" />
+          </div>
+          <p>© gadgets zone <br />Powered by zoho commerce</p>
+        </div>
+        <div class="footer-second">
+          <h4 class="h4-aboutus">Follow Us</h4>
+          <div class="social-icon">
+            <a href="#"><i class="ri-facebook-fill social-i"></i></a>
+            <a href="#"><i class="ri-twitter-fill social-i"></i></a>
+            <a href="#"><i class="ri-pinterest-fill social-i"></i></a>
+          </div>
+        </div>
+        <div class="footer-third">
+          <h4 class="h4-aboutus">We Accept</h4>
+          
+          <li>Visa Cards</li>
+          <li>Master Cards</li>
+          <li>Other Cards</li>
+        </div>
+        <div class="footer-four">
+          <h4 class="h4-aboutus">Newslatter</h4>
+          <input class="inp-newslatter" type="email" placeholder="Email" />
+          <button class="newslatter-btn">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+  </section>
+  </body>
+  </html>
+  

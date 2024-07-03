@@ -2,7 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: poppins;
+  src: url(/fonts/Poppins-Black.ttf);
+}
+
+/* this is variable for our main primary color orange  */
+:root {
+  --primary-color: #ffa500;
+}
+
+/* this border indicates the sections of this website  */
+section {
+  border: 1px solid black;
 }
 
 .headline {
@@ -157,7 +168,7 @@ footer {
   height: 300px;
   /* border: 1px solid red; */
   margin: auto;
-  background-color: #F7F8FA;
+  background-color: #f7f8fa;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
@@ -177,27 +188,27 @@ footer {
 }
 
 .timing {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.container3 > div > h1{
-    /* border: 1px solid red; */
-    padding: 10px 0px;
+.container3 > div > h1 {
+  /* border: 1px solid red; */
+  padding: 10px 0px;
 }
 
 .timing > div {
-    /* border: 1px solid red; */
-    padding: 50px 50px;
-    background-color: #EB984E;
-    color: white;
+  /* border: 1px solid red; */
+  padding: 50px 50px;
+  background-color: #eb984e;
+  color: white;
 }
 
 .timing > div > h2 {
-    padding: 10px 0px;
+  padding: 10px 0px;
 }
 
 .timing > div > p {
-    padding: 5px 0px;
+  padding: 5px 0px;
 }

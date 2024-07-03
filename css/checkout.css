@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  src: url(/fonts/Poppins-Black.ttf);
+}
+
+/* this is variable for our main primary color orange  */
+:root {
+  --primary-color: #ffa500;
+}
+
+/* this border indicates the sections of this website  */
+section {
+  border: 1px solid black;
+}
+
+.headline {
+  background-color: #055c9d;
+  color: white;
+  text-align: center;
+}
+
+.logo-text {
+  text-align: center;
+  padding: 20px 10px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin: auto;
+  font-size: 25px;
+}
+
+.header {
+  border-bottom: 1px solid gainsboro;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ri-search-line {
+  border-right: 1px solid grey;
+}
+
+i {
+  font-size: 20px;
+  padding: 10px;
+  /* margin: 5px; */
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid red; */
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  padding: 20px;
+}
+
+ul li:hover {
+  border-top: 3px solid orange;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #344454;
+  color: white;
+  padding: 4%;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.social-i {
+  color: white;
+}
+
+.footer-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-third > li {
+  padding: 10px 0px;
+}
+
+.inp-newslatter {
+  width: 100%;
+  padding: 8px 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  margin: 8px 0px;
+  color: white;
+}
+
+.newslatter-btn {
+  width: 100%;
+  padding: 8px 10px;
+  color: orange;
+}
+
+.payment-option > img {
+  width: 20%;
+  margin: 20px 1px;
+}
+
+.footer-first {
+  margin: 20px 10px;
+}
+.footer-second {
+  margin: 20px 10px;
+}
+.footer-third {
+  margin: 20px 10px;
+}
+.footer-four {
+  margin: 20px 10px;
+}
+
+.ifcheck {
+  border: 1px solid red;
+  position: absolute;
+  left: 71.5%;
+  width: 10px;
+  opacity: 0;
+}
+
+.ifcheck:checked + .checking {
+  display: block;
+}
+
+.checking {
+  display: none;
+  border: 1px solid gray;
+}
+
+.inp-search {
+  border: 1px solid red;
+  padding: 10px 10px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+.container2 {
+  width: 70%;
+  margin: auto;
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+
+.container2 > h4 > a {
+  text-decoration: none;
+  color: black;
+  display: inline;
+}
+
+.left {
+  width: 60%;
+  border-right: 1px solid gray;
+  display: flex;
+  padding: 20px 20px;
+}
+
+.checkout_form {
+  width: 100%;
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  padding: 20px 0px;
+}
+
+.name > div {
+  width: 50%;
+}
+
+.name input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 2px;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 2px;
+}
+
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 2px;
+}
+
+.btn {
+  margin: 10px 0px;
+  position: relative;
+  height: 40px;
+}
+
+.btn-relative {
+  padding: 10px 30px;
+  position: absolute;
+  right: 0px;
+  color: white;
+  border: 1px solid orange;
+  background-color: orange;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+}
+
+.btn-relative:hover {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.right {
+  padding: 20px 20px;
+  width: 38%;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: sticky;
+  top: 200px;
+}
+
+.box {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.coupon {
+  width: 85%;
+}
+
+.btn-apply {
+  padding: 10px 15px;
+  color: white;
+  border: 1px solid orange;
+  background-color: orange;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+}
+
+.btn-apply:hover {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+.widthfull-container1 {
+  width: 100%;
+  margin: auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid black;
+}
+
+.widthfull-container2 {
+  width: 100%;
+  margin: auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* border-bottom: 2px solid black; */
+}
