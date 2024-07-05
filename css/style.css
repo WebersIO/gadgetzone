@@ -10,10 +10,6 @@
   --primary-color: #ffa500;
 }
 
-section {
-  border: 1px solid black;
-}
-
 .headline {
   background-color: #055c9d;
   color: white;
@@ -131,8 +127,8 @@ li a {
 }
 
 .slider1-btn:hover {
-  color:white;
-  background-color:  var(--primary-color);
+  color: white;
+  background-color: var(--primary-color);
 }
 
 .slide2 {
@@ -266,7 +262,7 @@ li a {
 
 .card-btn:hover {
   background-color: var(--primary-color);
-  color:white;
+  color: white;
 }
 
 .products {
@@ -603,7 +599,6 @@ footer {
 .newslatter-btn:hover {
   scale: 1.1;
   width: 100%;
-
 }
 
 .payment-option > img {

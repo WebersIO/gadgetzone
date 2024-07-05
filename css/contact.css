@@ -11,11 +11,6 @@
   --primary-color: #ffa500;
 }
 
-/* this border indicates the sections of this website  */
-section {
-  border: 1px solid black;
-}
-
 .headline {
   background-color: #055c9d;
   color: white;

@@ -11,11 +11,6 @@
   --primary-color: #ffa500;
 }
 
-/* this border indicates the sections of this website  */
-section {
-  border: 1px solid black;
-}
-
 .headline {
   background-color: #055c9d;
   color: white;
@@ -120,7 +115,7 @@ li a {
 
 .main-pro {
   width: 65%;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   display: flex;
   /* background-color: ; */
   justify-content: center;
@@ -163,6 +158,11 @@ li a {
 .cart-btn {
   padding: 10px 20px;
   width: 49%;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
 }
 
 .container2 {
@@ -399,4 +399,13 @@ footer {
 }
 .footer-four {
   margin: 20px 10px;
+}
+
+
+/* button hovers */
+
+.cart-btn:hover{
+  background-color: var(--primary-color);
+  color: white;
+  width: 49%;
 }

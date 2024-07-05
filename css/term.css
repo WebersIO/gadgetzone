@@ -11,11 +11,6 @@
   --primary-color: #ffa500;
 }
 
-/* this border indicates the sections of this website  */
-section {
-  border: 1px solid black;
-}
-
 .headline {
   background-color: #055c9d;
   color: white;
@@ -106,6 +101,11 @@ li a {
   background-color: orange;
   border: 1px solid orange;
   margin: 10px 0px;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
 }
 
 footer {
@@ -186,4 +186,14 @@ footer {
 .inp-search {
   border: 1px solid red;
   padding: 10px 10px;
+}
+
+
+/* hovers */
+
+.btn:hover {
+  background-color: white;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  scale: 1.1;
 }
